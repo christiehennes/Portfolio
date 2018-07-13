@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Christie Hennes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Markazi+Text|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
     <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     
 </head>
 <body>
 
+        <!-- Menu -->
         <div class="menu" id="about">
                 <div class="menu-wrapper">
                     <!-- <div class="portfolio-name-wrapper">
                         <h1 class="menu-header-text">Christie Hennes</h1>
                     </div> -->
-                    <div class="menu-items-wrapper content-font">
+                    <div class="menu-items-wrapper header-font">
                         <div class="menu-item"><a href="#about">About</a></div> 
                         <div class="menu-item"><a href="#portfolio-link">Portfolio</a></div>
                         <div class="menu-item"><a href="#contact">Contact</a></div>
@@ -25,23 +30,46 @@
             </div>
 
 
-            <div class="about-content-wrapper">
 
-                <div class="main-content-wrapper left">
-                    <div class="image-wrapper"></div>
-                </div>
-                <div class="main-content-wrapper right">
-                    <div class="name-wrapper">
-                        <div class="name-info"></div>
-                        <div class="about-info"></div>
+                <!-- Upper Content -->
+                <div class="about-content-wrapper">
+
+                    <div class="main-content-wrapper left">
+                        <div class="image-wrapper"></div>
+                    </div>
+                    <div class="main-content-wrapper right">
+                        <div class="name-wrapper">
+                            <div class="name-info">Hi, I'm Christie.</div>
+                            <div class="about-info">I build products. I create things.</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="outer-portfolio-wrapper" id="portfolio-link">
-                <div class="portfolio-header">Projects</div>
-                <div class="portfolio-wrapper" id="portfolio">
+
+                <!-- Projects Area -->
+                <div class="outer-content-wrapper" id="portfolio-link">
+                    <div class="header header-font">Projects</div>
+                    <div class="portfolio-wrapper" id="portfolio"></div>
                 </div>
-            </div>
+
+                <!-- Contact Area -->
+
+                <div class="entry-fields-wrapper" id="contact">
+                    <div class="header header-font">Contact</div>
+                    <div class="entry-fields content-font">
+                        <form action="">
+                            <div class="field-name">Name</div>
+                            <input class="field" type="text" name="Name" value="John Smith" size="50vw">
+                            <div class="field-name">Email</div>
+                            <input class="field" type="email" name="Email" value="example@gmail.com" size="50vw">
+                            <div class="field-name">Message</div>
+                            <textarea class="field" name="Message" rows="10" size="50vw"></textarea>
+                            <br>
+                            <input class="submit-button" type="submit" value="Submit">
+                        </form> 
+                    </div>
+                </div>
+         
+
 
 
             

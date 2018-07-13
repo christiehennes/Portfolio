@@ -1,6 +1,9 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-color: #EAE7DC;
+        /* background-color: #F3E0DC; */
+
 }
 
 
@@ -22,9 +25,27 @@ html, body {
     justify-content: flex-end;
 }
 
+a:link{
+    color: #EAE7DC;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #EAE7DC;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5C2018;
+    text-decoration: none;
+}
+
+
+
 .about-content-wrapper {
     display:flex;
-    height: 90vh;
+    height: 100vh;
+    font-family: 'Markazi Text', serif;
 
 }
 
@@ -37,24 +58,27 @@ html, body {
 }
 
 .right {
-    background-color: red;
+    /* background-color: #E85A4F; */
+    /* background-color: #112D32; */
+    background-color: #BC4639;
 }
 
 .image-wrapper{
-    min-height: 50vh;
-    min-width: 50vh;
-    background-color: blue;
+    height: 50vh;
+    width: 50vh;
+    background-color:#5C2018;
 }
 
-.outer-portfolio-wrapper{
+.outer-content-wrapper{
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
 .portfolio-wrapper{
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     flex-wrap: wrap;
     
@@ -62,13 +86,29 @@ html, body {
 }
 
 .portfolio-item{
-    width: 33%;
+    width: 30%;
 
-    background: green;
-    border: 1px solid black;
+    background-color: #D4A59A;
+    opacity: 1.0;
+    margin: 1vw;
+    /* border: 1px solid black; */
     position: relative;
-
   
+}
+
+.portfolio-item img {
+    width: 100%;
+    opacity: 0.4;
+
+}
+
+
+.portfolio-item:hover {
+
+
+    opacity: 0.5;
+
+
 }
 
 .portfolio-item:after {
@@ -76,6 +116,9 @@ html, body {
     display: block;
     padding-bottom: 100%;
   }
+
+  
+
 
   .info-wrapper {
     position: absolute;
@@ -87,5 +130,60 @@ html, body {
     flex-direction: column;
   }
 
+  .entry-fields-wrapper{
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .entry-fields{
+      background-color: white;
+      padding: 10px;
+      margin-bottom: 10vh;
+  }
+
+  .form-width{
+      width: 100rem;
+  }
+
+
+  /* Fonts */
+
+  .header-font {
+    font-family: 'Roboto', sans-serif;
+  }
+
 
   /* https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
+
+
+@media screen and (max-width: 980px) {
+
+} 
+
+@media screen and (max-width: 768px) {
+
+
+}
+    
+
+@media screen and (max-width: 640px) {
+
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+
+    .image-wrapper{
+        display:none;
+
+    }
+
+    .portfolio-item{
+        width: 45%;
+    }
+
+
+}
