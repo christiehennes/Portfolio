@@ -6,8 +6,6 @@ html, body {
 
 }
 
-
-
 .menu{
     z-index: 1;
     position: absolute;
@@ -40,6 +38,10 @@ a:hover{
     color: #5C2018;
     text-decoration: none;
     cursor: pointer;
+}
+
+.social-icons{
+    margin-top: 1vw;
 }
 
 
@@ -86,7 +88,8 @@ a:hover{
 
 .section-header{
     margin: 1vw;
-    margin-top: 2vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
 }
 
 
@@ -136,6 +139,10 @@ a:hover{
     color: #EAE7DC;
 }
 
+.fab{
+    color: #5C2018;
+}
+
 .project-name{
     font-family: 'Markazi Text', serif;
 }
@@ -154,14 +161,15 @@ a:hover{
   }
 
   .entry-fields-wrapper{
-    max-width: 50vw;
+    max-width: 30vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 6vw;
   }
 
   .entry-fields{
       background-color: #EAE7DC;
-      padding: 10px;
+      /* padding: 10px; */
       margin-bottom: 10vh;
       margin: 1vw;
   }
@@ -170,13 +178,23 @@ a:hover{
       border: none;
       border-bottom: 1px solid #5C2018;
       margin-bottom: 1vw;
+      width: 100%;
       /* margin-left: 3vw; */
   }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+
 
   .field-name{
       margin-top: 1vw;
       margin-bottom: 0.5vw;
       margin-right: 3vw;
+      width: 25%;
   }
 
   .form-width{
@@ -190,6 +208,15 @@ a:hover{
 
   .icon{
       margin: 0.75vw;
+  }
+
+  .submit-button{
+      color: white;
+      background-color: #5C2018;
+      border: none;
+      font-size: 12px;
+      padding: 0.75vw;
+      margin-top: 1.5vw;
   }
 
 
@@ -223,6 +250,8 @@ a:hover{
       font-size: 12px;
       font-style: italic;
   }
+
+ 
 
 
   /* https://spin.atomicobject.com/2015/07/14/css-responsive-square/ */
