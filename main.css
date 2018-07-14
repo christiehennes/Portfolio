@@ -28,6 +28,7 @@ html, body {
 a:link{
     color: #EAE7DC;
     text-decoration: none;
+    width: 20px;
 }
 
 a:visited {
@@ -68,6 +69,8 @@ a:hover{
     height: 50vh;
     width: 50vh;
     background-color:#5C2018;
+    background-image: url("./images/christie.jpg");
+    background-size: 100%;
 }
 
 .name-wrapper{
@@ -127,6 +130,8 @@ a:hover{
     padding-bottom: 100%;
   }
 
+
+
 .fas{
     color: #EAE7DC;
 }
@@ -164,17 +169,27 @@ a:hover{
       background-color: transparent;
       border: none;
       border-bottom: 1px solid #5C2018;
+      margin-bottom: 1vw;
       /* margin-left: 3vw; */
   }
 
   .field-name{
-      margin-top: 0.5vw;
+      margin-top: 1vw;
       margin-bottom: 0.5vw;
       margin-right: 3vw;
   }
 
   .form-width{
       width: 100rem;
+  }
+
+  .code-link{
+      display: flex;
+
+  }
+
+  .icon{
+      margin: 0.75vw;
   }
 
 
