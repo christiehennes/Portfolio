@@ -158,6 +158,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 
   .entry-fields-wrapper{
@@ -269,11 +270,17 @@ a:hover{
 
 @media screen and (max-width: 640px) {
 
+
+    .about-content-wrapper{
+        height: 50vh;
+    }
+
     .left{
         display: none;
     }
     .right{
         width: 100%;
+        /* height: 50vh; */
     }
 
     .image-wrapper{
@@ -283,6 +290,15 @@ a:hover{
 
     .portfolio-item{
         width: 45%;
+    }
+
+    .info-wrapper{
+        padding: 1px;
+    }
+
+    .entry-fields-wrapper{
+        max-width: 80vw;
+
     }
 
 

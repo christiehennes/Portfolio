@@ -75,7 +75,7 @@ $("a").on('click', function(event) {
   });
 
 
-
+addPortfolioItem("TicketSauce", "Director of Product Development","https://ticketsauce.com/",'https://ticketsauce.com/');
 addPortfolioItem("Music Venue Search", "Multiple APIs + js", "https://github.com/christiehennes/Project1", 'https://christiehennes.github.io/Project1/');
 addPortfolioItem("Giphy", "API + js", "https://github.com/christiehennes/GIPHY-Project", 'https://christiehennes.github.io/GIPHY-Project/');
 addPortfolioItem("Train Scheduler", "js + firebase", "https://github.com/christiehennes/Train-Scheduler", 'https://christiehennes.github.io/Train-Scheduler/');
