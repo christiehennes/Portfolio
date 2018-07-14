@@ -29,13 +29,16 @@ function displayPortfolio(){
         `<div class="portfolio-item">
             
             <div class="info-wrapper">
-                <div class="project-name">${item.Name}</div>
-                <div class="project-type">${item.Type}</div>
+                <div class="project-name markazi-font"><h4>${item.Name}</h4></div>
+                <div class="project-type cabin-font"><h6>${item.Type}</h6></div><br>
                 <div class="code-link">
-                     <a href=${item.GitHubCode}><i class="fas fa-code"></i></a>
+                     <a href =${item.GitHubCode}><i class="fas fa-code"></i></a>
+                     <a href =${item.GitHubProject}><i class="fas fa-desktop"></i></a>
+                    
+
 
                 </div>
-                <div class="project-link">${item.GitHubProject}</div>
+
             </div>
         </div>
         `
@@ -69,9 +72,9 @@ $("a").on('click', function(event) {
 
 
 
-addPortfolioItem("Music Venue Search", "Multiple APIs + js", "https://github.com/christiehennes/Project1", "lhttps://christiehennes.github.io/Project1/");
-addPortfolioItem("Giphy", "API", "https://github.com/christiehennes/GIPHY-Project", "https://christiehennes.github.io/GIPHY-Project/");
-addPortfolioItem("Train Scheduler", "firebase", "https://github.com/christiehennes/Train-Scheduler", "https://christiehennes.github.io/Train-Scheduler/");
+addPortfolioItem("Music Venue Search", "Multiple APIs + js", "https://github.com/christiehennes/Project1", "https://christiehennes.github.io/Project1/");
+addPortfolioItem("Giphy", "API + js", "https://github.com/christiehennes/GIPHY-Project", "https://christiehennes.github.io/GIPHY-Project/");
+addPortfolioItem("Train Scheduler", "js + firebase", "https://github.com/christiehennes/Train-Scheduler", "https://christiehennes.github.io/Train-Scheduler/");
 addPortfolioItem("Word Guess", "js", "https://github.com/christiehennes/Word-Guess-Game", "https://christiehennes.github.io/Word-Guess-Game/");
 addPortfolioItem("Crystal Collector", "js", "https://github.com/christiehennes/unit-4-game", "https://christiehennes.github.io/unit-4-game/");
 addPortfolioItem("NYC Trivia", "js", "https://github.com/christiehennes/TriviaGame", "https://christiehennes.github.io/TriviaGame/");

@@ -38,6 +38,7 @@ a:visited {
 a:hover{
     color: #5C2018;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -45,7 +46,7 @@ a:hover{
 .about-content-wrapper {
     display:flex;
     height: 100vh;
-    font-family: 'Markazi Text', serif;
+    /* font-family: 'Markazi Text', serif; */
 
 }
 
@@ -69,11 +70,20 @@ a:hover{
     background-color:#5C2018;
 }
 
+.name-wrapper{
+ max-width: 70%;
+}
+
 .outer-content-wrapper{
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.section-header{
+    margin: 1vw;
+    margin-top: 2vw;
 }
 
 
@@ -106,7 +116,7 @@ a:hover{
 .portfolio-item:hover {
 
 
-    opacity: 0.5;
+    opacity: 0.8;
 
 
 }
@@ -116,6 +126,14 @@ a:hover{
     display: block;
     padding-bottom: 100%;
   }
+
+.fas{
+    color: #EAE7DC;
+}
+
+.project-name{
+    font-family: 'Markazi Text', serif;
+}
 
   
 
@@ -137,9 +155,22 @@ a:hover{
   }
 
   .entry-fields{
-      background-color: white;
+      background-color: #EAE7DC;
       padding: 10px;
       margin-bottom: 10vh;
+      margin: 1vw;
+  }
+  .field{
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #5C2018;
+      /* margin-left: 3vw; */
+  }
+
+  .field-name{
+      margin-top: 0.5vw;
+      margin-bottom: 0.5vw;
+      margin-right: 3vw;
   }
 
   .form-width{
@@ -149,8 +180,33 @@ a:hover{
 
   /* Fonts */
 
-  .header-font {
-    font-family: 'Roboto', sans-serif;
+  .cabin-font {
+    font-family: 'Cabin', sans-serif;
+  }
+
+  .markazi-font{
+    font-family: 'Markazi Text', serif;
+  }
+
+  h1 {
+      font-size: 60px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 {
+      font-size: 24px;
+  }
+
+  h5 {
+      font-size: 16px;
+  }
+
+  h6 {
+      font-size: 12px;
+      font-style: italic;
   }
 
 
