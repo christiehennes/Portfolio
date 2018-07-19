@@ -2,8 +2,6 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: #EAE7DC;
-        /* background-color: #F3E0DC; */
-
 }
 
 .menu{
@@ -14,8 +12,6 @@ html, body {
 
 .menu-item{
     margin: 1.25vw;
-    
-
 }
 
 .menu-items-wrapper{
@@ -49,21 +45,16 @@ a:hover{
 .about-content-wrapper {
     display:flex;
     height: 100vh;
-    /* font-family: 'Markazi Text', serif; */
-
 }
 
 .main-content-wrapper {
     width: 50%;
-
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
 .right {
-    /* background-color: #E85A4F; */
-    /* background-color: #112D32; */
     background-color: #BC4639;
 }
 
@@ -94,37 +85,25 @@ a:hover{
 
 
 .portfolio-wrapper{
-    /* height: 50vh; */
     display: flex;
     flex-wrap: wrap;
-    
-
 }
 
 .portfolio-item{
     width: 30%;
-
     background-color: #D4A59A;
     opacity: 1.0;
     margin: 1vw;
-    /* border: 1px solid black; */
     position: relative;
-  
 }
 
 .portfolio-item img {
     width: 100%;
     opacity: 0.4;
-
 }
 
-
 .portfolio-item:hover {
-
-
     opacity: 0.8;
-
-
 }
 
 .portfolio-item:after {
@@ -132,8 +111,6 @@ a:hover{
     display: block;
     padding-bottom: 100%;
   }
-
-
 
 .fas{
     color: #EAE7DC;
@@ -150,9 +127,6 @@ a:hover{
 .project-name{
     font-family: 'Markazi Text', serif;
 }
-
-  
-
 
   .info-wrapper {
     position: absolute;
@@ -174,7 +148,6 @@ a:hover{
 
   .entry-fields{
       background-color: #EAE7DC;
-      /* padding: 10px; */
       margin-bottom: 10vh;
       margin: 1vw;
   }
@@ -184,7 +157,6 @@ a:hover{
       border-bottom: 1px solid #5C2018;
       margin-bottom: 1vw;
       width: 100%;
-      /* margin-left: 3vw; */
   }
 
   input:focus,
@@ -254,6 +226,10 @@ a:hover{
   h6 {
       font-size: 12px;
       font-style: italic;
+  }
+
+  .center {
+      text-align: center;
   }
 
  
