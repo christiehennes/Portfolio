@@ -78,6 +78,7 @@ $("a").on('click', function(event) {
 addPortfolioItem("TicketSauce", "Director of Product Development","https://ticketsauce.com/",'https://ticketsauce.com/');
 addPortfolioItem("Command Line: Spotify+Twitter+ OMDB", "node.js","https://github.com/christiehennes/liri-node-app",'https://github.com/christiehennes/liri-node-app');
 addPortfolioItem("Music Venue Search", "Multiple APIs + js", "https://github.com/christiehennes/Project1", 'https://christiehennes.github.io/Project1/');
+addPortfolioItem("Command Line Word Guess", "node.js","https://github.com/christiehennes/Constructor-Word-Guess",'https://github.com/christiehennes/Constructor-Word-Guess');
 addPortfolioItem("Giphy", "API + js", "https://github.com/christiehennes/GIPHY-Project", 'https://christiehennes.github.io/GIPHY-Project/');
 addPortfolioItem("Train Scheduler", "js + firebase", "https://github.com/christiehennes/Train-Scheduler", 'https://christiehennes.github.io/Train-Scheduler/');
 addPortfolioItem("Word Guess", "js", "https://github.com/christiehennes/Word-Guess-Game", 'https://christiehennes.github.io/Word-Guess-Game/');
