@@ -76,7 +76,8 @@ $("a").on('click', function(event) {
 
 
 addPortfolioItem("TicketSauce", "Director of Product Development","https://ticketsauce.com/",'https://ticketsauce.com/');
-addPortfolioItem("Command Line: Bamazon", "MySQL + node.js","hhttps://github.com/christiehennes/Bamazon",'https://github.com/christiehennes/Bamazon');
+addPortfolioItem("Friend Finder", "node.js + Express", "https://github.com/christiehennes/Friend-Finder", "https://friend-finder-ch.herokuapp.com/")
+addPortfolioItem("Command Line: Bamazon", "MySQL + node.js","https://github.com/christiehennes/Bamazon",'https://github.com/christiehennes/Bamazon');
 addPortfolioItem("Command Line: Spotify+Twitter+ OMDB", "node.js","https://github.com/christiehennes/liri-node-app",'https://github.com/christiehennes/liri-node-app');
 addPortfolioItem("Music Venue Search", "Multiple APIs + js", "https://github.com/christiehennes/Project1", 'https://christiehennes.github.io/Project1/');
 addPortfolioItem("Command Line Word Guess", "node.js","https://github.com/christiehennes/Constructor-Word-Guess",'https://github.com/christiehennes/Constructor-Word-Guess');
