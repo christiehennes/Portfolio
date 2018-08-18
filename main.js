@@ -76,7 +76,7 @@ $("a").on('click', function(event) {
 
 
 addPortfolioItem("TicketSauce", "Director of Product Development","https://ticketsauce.com/",'https://ticketsauce.com/');
-addPortfolioItem("Eat Da Burger", "node.js, express, handlebares, mysql", "https://github.com/christiehennes/Eat-Da-Burger", "https://whispering-forest-52131.herokuapp.com/");
+addPortfolioItem("Eat Da Burger", "node.js, express, handlebars, mysql", "https://github.com/christiehennes/Eat-Da-Burger", "https://whispering-forest-52131.herokuapp.com/");
 addPortfolioItem("Friend Finder", "node.js + Express", "https://github.com/christiehennes/Friend-Finder", "https://friend-finder-ch.herokuapp.com/")
 addPortfolioItem("Command Line: Bamazon", "MySQL + node.js","https://github.com/christiehennes/Bamazon",'https://github.com/christiehennes/Bamazon');
 addPortfolioItem("Command Line: Spotify+Twitter+ OMDB", "node.js","https://github.com/christiehennes/liri-node-app",'https://github.com/christiehennes/liri-node-app');
