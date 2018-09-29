@@ -76,6 +76,7 @@ $("a").on('click', function(event) {
 
 
 addPortfolioItem("TicketSauce", "Director of Product Development","https://ticketsauce.com/",'https://ticketsauce.com/');
+addPortfolioItem("Clicky Game", "react", "https://github.com/christiehennes/Clicky-Game-React", "https://christiehennes.github.io/Clicky-Game-React/");
 addPortfolioItem("Rentee", "node.js, express, sequelize", "https://github.com/christiehennes/Project2", "https://github.com/christiehennes/Project2");
 addPortfolioItem("Eat Da Burger", "node.js, express, handlebars, mysql", "https://github.com/christiehennes/Eat-Da-Burger", "https://whispering-forest-52131.herokuapp.com/");
 addPortfolioItem("Friend Finder", "node.js + Express", "https://github.com/christiehennes/Friend-Finder", "https://friend-finder-ch.herokuapp.com/")
